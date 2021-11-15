@@ -4,7 +4,7 @@
 
 ## npm地址
 
-[https://www.npmjs.com/package/getpinyin](https://www.npmjs.com/package/getpinyin)
+[https://www.npmjs.com/package/changeNumToMoney](https://www.npmjs.com/package/changeNumToMoney)
 
 ## 安装
 
@@ -15,22 +15,17 @@ npm install getpinyin --save
 ## 引用
 
 ```js
-import { getFirstPY, getFullPY } from 'getpinyin'
+import { changeNumToMoney, changeNumMoneyToChinese } from 'changeNumToMoney'
 ```
 
 ```js
-const { getFirstPY, getFullPY } = require('getpinyin')
+const { changeNumToMoney, changeNumMoneyToChinese } = require('changeNumToMoney')
 ```
 
 ## 使用
 
 ```js
-console.log(getFirstPY('国')) // g
-console.log(getFirstPY('中国')) // zg
-console.log(getFullPY('国')) // guo
-console.log(getFullPY('中国')) // zhongguo
+console.log(changeNumToMoney(123456789)) // 123,456,789
+console.log(changeNumMoneyToChinese(123456789)) // 壹亿贰仟叁佰肆拾伍万陆仟柒佰捌拾玖元整
+
 ```
-
-## 注意
-
-没有对多音字进行处理
