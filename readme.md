@@ -4,12 +4,12 @@
 
 ## npm地址
 
-[https://www.npmjs.com/package/changeNumToMoney](https://www.npmjs.com/package/changeNumToMoney)
+[https://www.npmjs.com/package/changenumtomoney](https://www.npmjs.com/package/changenumtomoney)
 
 ## 安装
 
 ```js
-npm install getpinyin --save
+npm install changenumtomoney --save
 ```
 
 ## 引用
