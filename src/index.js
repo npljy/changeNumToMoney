@@ -1,7 +1,7 @@
 
 export default {
   changeNumToMoney (money) {
-    return  money.toString().includes('.') ? value.toLocaleString() : value.toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,')
+    return money.toString().includes('.') ? value.toLocaleString() : value.toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,')
   },
   
   changeNumMoneyToChinese (money) {
