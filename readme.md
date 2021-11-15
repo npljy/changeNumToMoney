@@ -15,11 +15,11 @@ npm install getpinyin --save
 ## 引用
 
 ```js
-import { changeNumToMoney, changeNumMoneyToChinese } from 'changeNumToMoney'
+import { changeNumToMoney, changeNumMoneyToChinese } from 'changenumtomoney'
 ```
 
 ```js
-const { changeNumToMoney, changeNumMoneyToChinese } = require('changeNumToMoney')
+const { changeNumToMoney, changeNumMoneyToChinese } = require('changenumtomoney')
 ```
 
 ## 使用
