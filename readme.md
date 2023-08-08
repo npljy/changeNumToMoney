@@ -1,7 +1,5 @@
 # 将数字转为千分位金额，数字转为大写金额
 
-使用 `Github Actions` 自动发布到 npm
-
 ## npm地址
 
 [https://www.npmjs.com/package/changenumtomoney](https://www.npmjs.com/package/changenumtomoney)
