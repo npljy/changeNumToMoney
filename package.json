@@ -1,6 +1,6 @@
 {
   "name": "changenumtomoney",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "将数字转为千分位金额，数字转为大写金额，使用 `Github Actions` 自动发布到 npm",
   "private": false,
   "scripts": {
